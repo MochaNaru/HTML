@@ -50,3 +50,60 @@ a {   /* nav a     or    nav ul li a*/
     text-decoration: none;
     color: aqua;
 }
+
+section {
+    width: 80%; /* 영역 크기 지정 */
+    margin-left: auto;    /* 영역 가운데 정렬 */
+    margin-right: auto;   /* 영역 가운데 정렬 */
+    border: 5px solid #333; /* 테두리 두께 색상지정 */
+    /* border-width: ;
+    border-style: ;
+    border-color: ; 
+    위쪽 내용 나열 */
+    padding: 5px;   /* 안쪽 여백 (페딩) */
+}
+
+h2 {
+    font-size: 1.8em;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px 10px rgb(198, 198, 198); /* p312-박스 그림자 지정 */
+}
+
+h3 {
+    font-size: 1.3em;
+    padding: 15px 0px 15px 10px;
+    border-left: 5px solid #333;
+}
+
+p {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 20px;
+}
+
+dl {
+    line-height: 30px;
+    padding-left: 30px;
+    margin-right: 30px;
+}
+
+dt {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: mediumvioletred;
+}
+
+article ul { 
+    line-height: 30px;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.797);
+    width: 80%; /* 영역 크기 지정 */ 
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
