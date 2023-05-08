@@ -24,14 +24,14 @@ h1 {
 /* header의 자손인 h1태그에 적용 */
 header h1 {
   color: rgb(31, 197, 136);
-  width: 40%;
+  width: 30%;
   float: left;
 }
 
 /*header 의 자식인 nav 태그에 적용*/
 header > nav {
     /* background-color: aqua; */
-    width: 50%;
+    width: 70%;
     float: right;
 }
 
