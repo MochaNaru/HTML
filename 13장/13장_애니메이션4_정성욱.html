@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<headz
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션4 - 정성욱</title>
+
+    <style>
+        #box1 {
+            width: 60px;
+            height: 60px;
+            margin: 60px;
+            animation: rotate 1.5s infinite, badkground 1.5s infinite alternate;
+        }
+
+        @keyframes rotate {
+            from {transform: perspective(120px) rotateX(0deg) rotateY(0deg);}
+            50% {transform: perspective(120px) rotateX(-180deg) rotateY(0deg);}
+            to {transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);}
+        }
+
+        @keyframes badkground {
+            from {background-color: violet;}
+            50% {background-color: red}
+            to {background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+</body>
+</html>
