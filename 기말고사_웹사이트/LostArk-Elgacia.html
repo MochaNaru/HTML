@@ -9,16 +9,63 @@
     <link rel="stylesheet" href="CSS/main.css">
 
     <style>
+        div {
+            display: inline-block;
+            width: 1900px;
+            height: auto;
+            text-align: center;
+        }
+
         body {
-            background-image: url(images/654cd1f162e04fc296b6346d85e161a0\ \(1\).png);
+            background-image: url(images/654cd1f162e04fc296b6346d85e161a0.png);
             background-repeat: no-repeat;
             background-size: cover
         }    
 
+        img {
+            animation-name: rotate;
+            animation-duration: 3s;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(1800deg);
+            }
+        }
+
+        p {
+            line-height: 2.0;
+            font-size:15px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid rgb(0, 0, 0);
+            animation-name: color-fill;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes color-fill {
+            0% { background-color: #ffffff00; } /* 시작 배경색 */
+            100% { background-color: #69d3f6f3; } /* 끝 배경색 */
+        }
+
     </style>
 </head>
 <body>
-    <h1>로스트아크-엘가시아</h1>
+
+    <div id="box">
+        <h1>엘가시아란 어떤곳인가?</h1>
+        <img src="images/images.png">
+    </div>
 
     <nav>
         <a href="LostArk-main.html">로스트아크란? / </a>
@@ -27,9 +74,34 @@
         <a href="LostArk-OST.html">엘가시아주요-OST</a>
     </nav>
 
-    <h2>엘가시아란 어떤곳인가?</h2>
+    <section>
+        <h2>엘가시아 Elgacia</h2>
+        <h2>꿈꾸지 않는 자들의 낙원</h2>
 
-    <p>
+        <p>
+            할의 반역 이후 루페온은 라제니스의 날개를 퇴화시켜 더 이상 날 수 없도록 만들었고 신들이 사는 세계 밑에 '엘가시아'를 만들었다. 이후 라제니스들은 엘가시아를 제2의 고향으로 여긴다. <br>
 
-    </p>
+            시즌2에서 에스더 니나브가 스토리에 전면적으로 개입하기 시작하면서 엘가시아 또한 조금씩 언급되고 있다.<br>
+            
+            티저영상을 통해 2022년 4월 27일에 업데이트 될 예정임이 발표되었다.<br>
+            
+            신들을 모시는 것과 신탁의 중심부가 되는 것, 라제니스들의 의복과 엘가시아의 건축요소(물론 중세의 모습도 많이 반영되었지만) 등을 미루어 보았을 때 고대 그리스의 면모가 많이 비친다. 특히 후일담에서 엘가시아의 정치체제가 라제니스의 검 5인이 운영하는 과두제에서 대광장에서 모두의 의견을 논하는 대광장 회의로 바뀐 것을 보면 아테네의 민주정에서 따왔을 가능성이 높다.<br>
+            
+            에스더 카단이 숨겨놓은 마지막 아크인 [영원의 아크 카양겔]을 엘가시아에서 얻게 된다.<br>
+            
+            언뜻 보면 굉장히 평화롭고 아름다운 지역이지만 실은 다른 지역과 다를 바 없이 위기에 처해있는 곳이다. 정체를 알 수 없는 불온한 존재와 하늘에서 내리는 심판의 창이 라제니스들을 학살하고 있다.<br>
+            
+            또한 루페온은 라제니스들에게 참회를 명목으로 엘가시아를 만들고 그곳에서 영원히 살도록 만들었다. 낙원이라 불리지만, 사실상 라제니스를 가두는 새장이나 다름없는 것이다.<br>
+            
+            모험의 서 난이도는 이전 대륙들보다는 확실히 낮아진 편으로, 특히 요리의 난이도가 이전 대륙보다 낮아진 편이다. 호감도 NPC들의 호감도통도 많이 크지 않은 편.<br>
+            
+            모코코 등도 성향 컷등은 존재하지만 카양겔 스토리 던전 내부에는 모코코 씨앗이 존재하지 않아서 상당히 나은 편이다. 1540의 레벨컷이 있는 이스라펠도 당장에 %가 필요하다면 화염 수류탄을 던져서 기여도만 채워도 클리어로 치기 때문에 %획득이 급하다면 하루 주간보스를 포기하고 이쪽 방향으로 진행해도 된다.<br>
+            
+            여담으로 엘가시아의 요리 파트는 아말론 평가 부분이 비워져있고 (시식평 부분은 비워져 있다...)라고만 적혀있는데, 설정상 엘가시아에 올 수 있는 사람은 선택받은 사람만 올 수 있으므로 아말론은 올라올 수 없기 때문.<br>
+            
+            다만 이전 대륙들과는 달리 수집품 항목 중 프로키온의 숨결이 자비없는 드랍률로 인해 상당히 비싼 가격대를 형성하는 중이다.<br>
+            
+            이전까지 드랍률이 낮기로 악명높은 갈라투르 전기가 2000골 내외에서 가격이 형성된 것에 비해 프로키온의 숨결은 10000골드를 넘기도 하는 등.. 엘가시아 100%을 달성하기 위해서는 큰 골드지출이 필요할 것이다.<br>
+        </p>
+    </section>
 </body>

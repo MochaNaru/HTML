@@ -12,18 +12,17 @@
 
         div {
             display: inline-block;
-            width: 1500px;
+            width: 1900px;
             height: auto;
             text-align: center;
         }
 
-        h1 {
-            text-align: center;
-            border: 2px solid black;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 10px;
+        #box {
+            float: left; 
+        }
+
+        nav, section {
+            clear: both;
         }
 
         body {
@@ -56,11 +55,27 @@
 
         p {
             text-align: center;
+            font-family: "맑은 고딕", "고딕", "굴림";
+        }
+
+        img {
+            animation-name: rotate;
+            animation-duration: 3s;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(1800deg);
+            }
         }
     </style>
 </head>
 <body>
-    <div>
+    <div id="box">
         <h1>로스트아크-엘가시아</h1>
         <img src="images/imges.png">
     </div>
