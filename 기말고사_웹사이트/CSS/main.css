@@ -1,14 +1,18 @@
 h1 {
     font-family: "맑은고딕", "고딕", "굴림";
     font-weight: bold;
-    font-size: 40px;
     text-align: center;
-    background-color:rgba(0, 255, 255, 0.49);
-
+    border: 2px solid black;
+    width: 25%;
+    margin: 0% auto;
+    font-size: 40px;
 }
 
 nav {
     text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: 0% auto;
 }
 
 a {
